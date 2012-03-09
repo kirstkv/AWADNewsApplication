@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date:</b>
+  <%= @headline.date %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @headline.description %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @headline.title %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @headline.link %>
+</p>
+
+
+<%= link_to 'Edit', edit_headline_path(@headline) %> |
+<%= link_to 'Back', headlines_path %>
